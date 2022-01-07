@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #575757;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 0px 0px;
+    font-weight: 800;
+}
+
+.colored-text{
+    color: orange;
+}
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+
+.half-width img{
+    width: 80%;
+}
+
+.vertical-position{
+    padding-top: 100px;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.half-width p {
+    margin-bottom: 30px;
+}
+
+.first-section {
+    background-image: url(images/shapes/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.about {
+    height: 600px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    padding: 0 5%;
+}
+
+.about-img img {
+    width: 69%;
+}
+
+.about p {
+    margin-bottom: 50px;
+}
+
+.about .vertical-position{
+    padding-top: 130px;
+}
+
+.recipiy {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 90%;
+}
+
+.recipy-text {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.recipy-menu {
+    display: flex;
+    margin: 0 auto;
+}
+
+.recipy-item {
+    width: 28%;
+    margin-left: 2%;
+    padding: 30px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 30px;
+}
+
+.recipy-image img {
+    text-align: center;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.recipy-details h3 {
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+}
+
+.recipy-item .link-details {
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    color: tomato;
+}
+
+.subscription {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscription h3 {
+    font-size: 40px;
+}
+
+.subscription p {
+    margin-bottom: 40px;
+}
+
+.subscription-box {
+    text-align: center;
+    width: 30%;
+    margin-left: 3.5%;
+    padding: 30px;
+    /* background-image: linear-gradient(orange, tomato); */
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.subscription-box h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.subscription-box h3 {
+    font-size: 50px;
+    color: teal;
+}
+
+.subscription-box button {
+    background-image: linear-gradient(#10B154, #98d6b2);
+}
+
+.follower {
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.follower-item {
+    width: 30%;
+    margin-left: 13%;
+}
+
+.follower-item h3 {
+    font-size: 55px;
+    margin-bottom: 3px;
+}
+
+.follower-item p {
+    font-size: 15px;
+}
+
+footer {
+    background-color: black;
+    margin-top: 100px ;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+footer p {
+    color: white;
+}
